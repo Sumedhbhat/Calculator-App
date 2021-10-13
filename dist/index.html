@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div
+      class="
+        relative
+        rounded-lg
+        w-96
+        mx-auto
+        text-center
+        py-auto
+        flex flex-col
+        my-24
+      "
+    >
+      <div class="text-5xl font-normal mb-12 divide-dashed font-sans">
+        Calculator
+      </div>
+      <div
+        class="
+          mx-auto
+          rounded-lg
+          w-96
+          shadow-xl
+          mb-3
+          h-16
+          bg-black
+          text-white
+          py-3
+          flex-2
+          text-3xl
+          items-center
+          text-right
+          p-2
+          area
+        "
+      ></div>
+      <div
+        class="grid text-white rounded-lg place-items-stretch grid-cols-5 gap-3"
+      >
+        <button class="btn">7</button>
+        <button class="btn">8</button>
+        <button class="btn">9</button>
+        <button class="btn bg-red-600 hover:bg-red-500">DEL</button>
+        <button class="btn bg-red-600 hover:bg-red-500">AC</button>
+        <button class="btn">4</button>
+        <button class="btn">5</button>
+        <button class="btn">6</button>
+        <button class="btn bg-yellow-600 multiply hover:bg-yellow-500">
+          *
+        </button>
+        <button class="btn bg-yellow-600 buttonide hover:bg-yellow-500">
+          /
+        </button>
+        <button class="btn">1</button>
+        <button class="btn">2</button>
+        <button class="btn">3</button>
+        <button class="btn bg-yellow-600 hover:bg-yellow-500">+</button>
+        <button class="btn bg-yellow-600 hover:bg-yellow-500">-</button>
+        <button class="btn">.</button>
+        <button class="btn col-span-2">0</button>
+        <button class="btn bg-red-600 hover:bg-red-500 col-span-2">=</button>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
